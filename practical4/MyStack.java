@@ -28,7 +28,8 @@ public class MyStack {
                 case "1" -> push(addNum());
                 case "2" -> System.out.println(peek());
                 case "3" -> System.out.println(pop());
-                case  "4" -> System.exit(0);
+                case  "4" -> System.out.println(stack);
+                case  "5" -> System.exit(0);
             }
 
         }
